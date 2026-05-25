@@ -1,0 +1,21 @@
+.container {
+  width: 90%;
+  max-width: var(--container-width);
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-lg);
+}
+
+.flex {
+  display: flex;
+}
