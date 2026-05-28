@@ -12,33 +12,186 @@
     <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/utilities.css">
 
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/animations.css">
+    <link rel="stylesheet" href="/components/cards/card.css">
+
     <link rel="stylesheet" href="/components/navbar/navbar.css">
     <link rel="stylesheet" href="/components/footer/footer.css">
 </head>
 <body>
     <div id="navbar"></div> 
     
-    <section class="section">
+    <section class="hero">
+      <section class="section">
 
-    <div class="container">
+  <div class="container">
 
-      <h1 class="text-center">
-        Merhaba Dünya</h1>
-        <P class="text-center mt-lg"> 
-            Korhan Onat ÖRS'ün
-Kişisel web sitesine hoş geldiniz!</P>
-         <p class="text-center mt-lg">Bu site, benim hakkımda bilgi edinmek, projelerimi görmek ve benimle iletişim kurmak isteyenler için tasarlanmıştır.</p>    
+    <h2 class="text-center mb-lg">
+      Projelerim
+    </h2>
 
-        <p class="text-center mt-lg">Lütfen menüyü kullanarak farklı sayfalara göz atın ve benimle bağlantıya geçmekten çekinmeyin.</p>
-       <p class="text-center mt-lg"> İyi gezmeler!   </p> 
-         
-      
+    <div class="card-grid">
+
+      <!-- CARD 1 -->
+
+      <div class="card fade-in">
+
+        <div class="card-image">
+
+          <img
+            src="https://picsum.photos/400/300?1"
+            alt="Tetris"
+          >
+
+        </div>
+
+        <div class="card-content">
+
+          <h3 class="card-title">
+            Tetris
+          </h3>
+
+          <p class="card-description">
+
+            JavaScript ile geliştirdiğim modern tetris oyunu.
+
+          </p>
+
+          <a href="#" class="card-button">
+            İncele
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 2 -->
+
+      <div class="card fade-in">
+
+        <div class="card-image">
+
+          <img
+            src="https://picsum.photos/400/300?2"
+            alt="Zar Atma"
+          >
+
+        </div>
+
+        <div class="card-content">
+
+          <h3 class="card-title">
+            Zar Atma
+          </h3>
+
+          <p class="card-description">
+
+            Mini oyun sistemi içerisinde geliştirilmiş zar uygulaması.
+
+          </p>
+
+          <a href="#" class="card-button">
+            İncele
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 3 -->
+
+      <div class="card fade-in">
+
+        <div class="card-image">
+
+          <img
+            src="https://picsum.photos/400/300?3"
+            alt="Blog"
+          >
+
+        </div>
+
+        <div class="card-content">
+
+          <h3 class="card-title">
+            Blog Sistemi
+          </h3>
+
+          <p class="card-description">
+
+            Kendi frontend mimarimle oluşturduğum blog yapısı.
+
+          </p>
+
+          <a href="#" class="card-button">
+            İncele
+          </a>
+
+        </div>
+
+      </div>
 
     </div>
 
-  </section>
+  </div>
+
+</section>
+
+  <div class="container hero-container">
+
+    <!-- LEFT -->
+
+    <div class="hero-content fade-in">
+
+      <p class="hero-subtitle">
+        Frontend Developer & Project Builder
+      </p>
+
+      <h1 class="hero-title">
+        Korhan Onat ÖRS
+      </h1>
+
+      <p class="hero-description">
+
+        Kişisel projelerimi, oyunlarımı ve geliştirdiğim
+        sistemleri paylaştığım web sitesine hoş geldiniz.
+
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="/pages/games/" class="btn btn-primary">
+          Oyunlar
+        </a>
+
+        <a href="/pages/about/" class="btn btn-secondary">
+          Hakkımda
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+
+    <div class="hero-image fade-in">
+
+      <img
+        src="https://picsum.photos/500"
+        alt="Profile Image"
+      >
+
+    </div>
+
+  </div>
+
+</section>
     
   <div id="footer"></div>
+  <script src="/js/theme.js"></script>
+  <script src="/js/animations.js"></script>
+
   <script src="/components/navbar/navbar.js"></script>
   <script src="/components/footer/footer.js"></script>
 

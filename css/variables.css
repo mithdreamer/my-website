@@ -1,15 +1,21 @@
 :root {
 
-  /* COLORS */
+  /* BACKGROUND */
 
   --color-background: #0f172a;
   --color-surface: #1e293b;
 
-  --color-primary: #2563eb;
-  --color-primary-hover: #1d4ed8;
+  /* PRIMARY */
+
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+
+  /* TEXT */
 
   --color-text: #f8fafc;
-  --color-text-muted: #94a3b8;
+  --color-text-muted: #cbd5e1;
+
+  /* BORDER */
 
   --color-border: #334155;
 
@@ -34,5 +40,19 @@
   /* CONTAINER */
 
   --container-width: 1200px;
+
+}
+
+/* LIGHT MODE */
+
+body.light-mode {
+
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+
+  --color-text: #0f172a;
+  --color-text-muted: #475569;
+
+  --color-border: #cbd5e1;
 
 }

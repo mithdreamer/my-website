@@ -7,6 +7,7 @@ async function loadNavbar() {
   document.getElementById("navbar").innerHTML = data;
 
   initializeNavbar();
+  initializeTheme();
 
 }
 

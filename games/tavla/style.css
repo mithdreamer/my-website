@@ -1,0 +1,138 @@
+.backgammon-layout {
+  max-width: 1000px;
+
+  margin: auto;
+}
+
+/* PLAYER */
+
+.player-panel {
+  text-align: center;
+
+  font-size: 28px;
+
+  font-weight: bold;
+
+  margin: 24px 0;
+}
+
+/* BOARD */
+
+.board {
+  height: 500px;
+
+  background-color: #7c2d12;
+
+  border-radius: 24px;
+
+  padding: 24px;
+
+  display: flex;
+
+  gap: 24px;
+
+  box-shadow:
+    0 12px 30px rgba(0,0,0,0.3);
+}
+
+/* SIDES */
+
+.board-side {
+  flex: 1;
+
+  display: grid;
+
+  grid-template-columns: repeat(6, 1fr);
+
+  gap: 12px;
+}
+
+/* CENTER */
+
+.board-center {
+  width: 80px;
+
+  background-color: #5b1c0f;
+
+  border-radius: 12px;
+}
+
+/* POINTS */
+
+.point {
+  position: relative;
+
+  height: 100%;
+
+  clip-path:
+    polygon(
+      50% 0%,
+      0% 100%,
+      100% 100%
+    );
+}
+
+/* COLORS */
+
+.point.dark {
+  background-color: #f59e0b;
+}
+
+.point.light {
+  background-color: #fde68a;
+}
+
+/* DICE */
+
+.dice-area {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 24px;
+
+  margin: 32px 0;
+}
+
+.dice {
+  width: 80px;
+  height: 80px;
+
+  background-color: white;
+
+  border-radius: 16px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 48px;
+
+  box-shadow:
+    0 6px 16px rgba(0,0,0,0.25);
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .board {
+    flex-direction: column;
+
+    height: auto;
+  }
+
+  .board-side {
+    grid-template-columns: repeat(6, 1fr);
+
+    height: 200px;
+  }
+
+  .board-center {
+    width: 100%;
+
+    height: 40px;
+  }
+
+}
