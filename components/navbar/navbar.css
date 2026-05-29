@@ -8,6 +8,8 @@
 
   border-bottom: 1px solid var(--color-border);
 
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+
   z-index: 1000;
 }
 
@@ -126,8 +128,4 @@
     margin-right: 16px;
   }
 
-}
-.navbar {
-  background: green;
-  border: 5px solid red;
 }
