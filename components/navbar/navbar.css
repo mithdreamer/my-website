@@ -128,5 +128,6 @@
 
 }
 .navbar {
-  background: rgb(255, 64, 0);
+  background: green;
+  border: 5px solid red;
 }
