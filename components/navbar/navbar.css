@@ -90,7 +90,7 @@
 
     flex-direction: column;
 
-    padding: 24px 0;
+    padding: 100px 0;
 
     gap: 24px;
 
@@ -127,9 +127,6 @@
   }
 
 }
-<<<<<<< HEAD
-=======
 .navbar {
-  background: red;
+  background: blue;
 }
->>>>>>> tavla-ui
