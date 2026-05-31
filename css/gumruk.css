@@ -1,0 +1,26 @@
+.page-hero {
+  padding-top: 120px;
+  padding-bottom: 80px;
+
+  text-align: center;
+}
+
+.page-title {
+  font-size: 64px;
+
+  margin-bottom: 24px;
+}
+
+.page-description {
+  max-width: 760px;
+
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+
+  .page-title {
+    font-size: 42px;
+  }
+
+}

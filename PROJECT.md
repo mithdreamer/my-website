@@ -44,6 +44,8 @@ Aklina gelen ama henuz planlamadigin seyler:
 - [ ] Gelismis arama
 - [ ] Admin paneli fikirleri
 - [ ] Raporlama ekranlari
+- [ ] Gumruk ile ilgili sayfa hazirlama
+- [ ] 3D calismalarini internet sitesine ekleme
 
 ## 📚 Ogrenme Listesi
 
