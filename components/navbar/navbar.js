@@ -7,7 +7,9 @@ async function loadNavbar() {
   document.getElementById("navbar").innerHTML = data;
 
   initializeNavbar();
+
   initializeTheme();
+
   initializeActiveNavLink();
 
 }
@@ -17,6 +19,10 @@ function initializeNavbar() {
   const menuToggle = document.getElementById("menu-toggle");
 
   const navLinks = document.getElementById("nav-links");
+
+  if (!menuToggle || !navLinks) {
+    return;
+  }
 
   menuToggle.addEventListener("click", () => {
 

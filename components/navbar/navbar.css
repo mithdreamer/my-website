@@ -113,8 +113,11 @@
 
 @media (max-width: 768px) {
 
-  .menu-toggle {
-    display: block;
+    .menu-toggle {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
   }
 
   .nav-links {

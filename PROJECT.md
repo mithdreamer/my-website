@@ -9,9 +9,22 @@ Gerektikce elle guncellenebilir.
 
 - `variables.css` guncellendi
 - `buttons.css` olusturuldu
-- Button System sadece `pages/3d/index.html` uzerinde test edildi
-- Henuz site geneline uygulanmadi
-- Sonraki adim: Card System ve `card-button` -> `btn btn-primary` donusumu
+- `card.css` ortak kart yapisina cekildi
+- `heroes.css` ortak sayfa hero yapisi icin olusturuldu
+- Button System `pages/3d`, `pages/games`, `pages/gumruk` ve gumruk alt sayfalarinda kullanilmaya baslandi
+- Henuz tum kart butonlari `btn` sistemine tasinmadi
+- Sonraki adim: `card-button` -> `btn btn-primary` donusumu ve Table/Form System
+
+### Son Gelistirmeler
+
+- Navbar System gelistirildi
+- Navbar artik ortak HTML/CSS/JS bileseni olarak yukleniyor
+- Mobil menu icin hamburger ac/kapat davranisi eklendi
+- Aktif sayfa linki otomatik vurgulaniyor
+- Navbar link renkleri dark/light tema degiskenleriyle uyumlu hale getirildi
+- Navbar'a Magaza, Blog ve Hakkimda linkleri eklendi
+- Store ve Blog sayfalari temel hero/icerik yapisiyla eklendi
+- 3D sayfasina Button System demo alani eklendi
 
 ## Proje Yol Haritasi
 
@@ -32,7 +45,7 @@ Gerektikce elle guncellenebilir.
 
 ### Siradakiler
 
-- [ ] Navbar System
+- [x] Navbar System
 - [ ] Table System
 - [ ] Form System
 - [ ] SEO
@@ -58,13 +71,16 @@ Gerektikce elle guncellenebilir.
 
 Bunlar aktif gelistirme isleri:
 
-- [ ] Button System
-  - [ ] `buttons.css` icerigi
-  - [ ] `btn` / `btn-primary` / `btn-secondary`
+- [x] Button System
+  - [x] `buttons.css` icerigi
+  - [x] `btn` / `btn-primary` / `btn-secondary`
   - [ ] `card-button` -> `btn` donusumu
-- [ ] Card System 2.0
-  - [ ] Kart hover gelistirmeleri
-  - [ ] Esit yukseklikte kartlar
+- [x] Card System 2.0
+  - [x] Kart hover gelistirmeleri
+  - [x] Esit yukseklikte kartlar
+- [ ] Navbar son kontrolleri
+  - [ ] Tum sayfalarda aktif link kontrolu
+  - [ ] Mobil gorunum testi
 
 ## 🟡 Yakinda Yapilacaklar
 
