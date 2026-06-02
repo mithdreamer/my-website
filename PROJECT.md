@@ -26,6 +26,12 @@ Gerektikce elle guncellenebilir.
 - Store ve Blog sayfalari temel hero/icerik yapisiyla eklendi
 - 3D sayfasina Button System demo alani eklendi
 
+### Modal Nedir?
+
+- Modal, kullanicinin dikkatini belirli bir isleme veya bilgiye toplamak icin mevcut sayfanin uzerinde acilan pencere/panel yapisidir.
+- Arka plandaki sayfa genelde karartilir veya gecici olarak etkilesime kapatilir; kullanici modal'i kapatana ya da gerekli islemi tamamlayana kadar odak modal uzerinde kalir.
+- Ornek kullanimlar: giris/kayit formu, onay mesaji, detay goruntuleme, uyari veya kisa ayar ekranlari.
+
 ## Proje Yol Haritasi
 
 ### Mimari
@@ -95,6 +101,10 @@ Bunlar projeyi buyutecek ozellikler:
 
 Daha buyuk isler:
 
+- [ ] Modal sistemi
+  - [ ] Ortak modal HTML/CSS/JS bileseni
+  - [ ] Ac/kapat davranisi
+  - [ ] Klavye ve odak kontrolu
 - [ ] Uyelik sistemi
   - [ ] Kayit ol
   - [ ] Giris yap
@@ -117,6 +127,33 @@ Aklina gelen ama henuz planlamadigin seyler:
 ## 📚 Ogrenme Listesi
 
 Unutmamak istedigin teknik konular:
+
+### Ogrenilen Onemli Konular
+
+- HTML -> Iskelet
+- CSS -> Gorunum
+- JS -> Davranis
+- DOM -> Tarayicinin HTML'i agac olarak tutmasi
+- DOM Manipulasyonu -> JS ile HTML'i degistirmek
+- Event Listener -> Kullanici olaylarini dinlemek
+- Component -> Tekrar kullanilabilir parcalar
+- Modal -> Sayfanin ustunde acilan gecici pencere
+- `===` -> Tip ve deger kontrolu
+
+### En Cok Kullanilan Event Turleri
+
+- `click`
+- `dblclick`
+- `mouseover`
+- `keydown`
+- `keyup`
+- `input`
+- `change`
+- `submit`
+- `scroll`
+- `load`
+
+### Tekrar Bakilacak Konular
 
 - [ ] Git branch mantigi
 - [ ] Pull Request sureci
