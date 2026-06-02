@@ -8,6 +8,7 @@ async function loadNavbar() {
 
   initializeNavbar();
   initializeTheme();
+  initializeActiveNavLink();
 
 }
 
@@ -20,6 +21,26 @@ function initializeNavbar() {
   menuToggle.addEventListener("click", () => {
 
     navLinks.classList.toggle("active");
+
+  });
+
+}
+
+function initializeActiveNavLink() {
+
+  const currentPath = window.location.pathname;
+
+  const navLinkItems = document.querySelectorAll(".nav-links a");
+
+  navLinkItems.forEach(link => {
+
+    const linkPath = link.getAttribute("href");
+
+    if (currentPath === linkPath) {
+
+      link.classList.add("active");
+
+    }
 
   });
 

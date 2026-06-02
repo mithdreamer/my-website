@@ -1,3 +1,5 @@
+/* NAVBAR */
+
 .navbar {
   position: sticky;
   top: 0;
@@ -51,12 +53,21 @@
 
   color: var(--color-text-muted);
 
-  transition: color 0.2s ease;
+  transition: color var(--transition-fast);
 }
 
 .nav-links a:hover {
   color: var(--color-text);
 }
+
+/* ACTIVE PAGE */
+
+.nav-links a.active {
+  color: var(--color-primary);
+
+  font-weight: 700;
+}
+
 /* ACTIONS */
 
 .navbar-actions {
@@ -65,6 +76,23 @@
   align-items: center;
 
   gap: 12px;
+}
+
+/* THEME BUTTON */
+
+.theme-toggle {
+  background: none;
+
+  color: var(--color-text);
+
+  font-size: 22px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
 }
 
 /* HAMBURGER BUTTON */
@@ -77,6 +105,8 @@
   color: var(--color-text);
 
   font-size: 32px;
+
+  cursor: pointer;
 }
 
 /* MOBILE */
@@ -113,22 +143,3 @@
   }
 
 }
-
-/* THEME BUTTON */
-
-.theme-toggle {
-  background: none;
-
-  color: var(--color-text);
-
-  font-size: 22px;
-
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-}
-
-/* MOBILE */
-
-
