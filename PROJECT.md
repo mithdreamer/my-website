@@ -13,6 +13,7 @@ Gerektikce elle guncellenebilir.
 - `heroes.css` ortak sayfa hero yapisi icin olusturuldu
 - Button System `pages/3d`, `pages/games`, `pages/gumruk` ve gumruk alt sayfalarinda kullanilmaya baslandi
 - Henuz tum kart butonlari `btn` sistemine tasinmadi
+- Ileride `pages/design-system/index.html` olusturulacak ve test alanlari bu sayfaya tasinacak
 - Sonraki adim: `card-button` -> `btn btn-primary` donusumu ve Table/Form System
 
 ### Son Gelistirmeler
@@ -48,6 +49,7 @@ Gerektikce elle guncellenebilir.
 - [x] Buttons
 - [x] Cards
 - [x] Heroes
+- [ ] `pages/design-system/index.html` olusturulacak ve test alanlari buraya tasinacak
 
 ### Siradakiler
 
