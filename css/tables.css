@@ -1,44 +1,120 @@
-/* TABLE */
+/* ========================================
+   TABLE SYSTEM
+======================================== */
 
 .table-wrapper {
+  width: 100%;
   overflow-x: auto;
 }
 
 .table {
   width: 100%;
-
   border-collapse: collapse;
-
-  background-color: var(--color-surface);
-
-  border: 1px solid var(--color-border);
-
-  border-radius: var(--radius-lg);
-
+  background-color: #ffffff;
+  color: #1f2937;
+  border-radius: 12px;
   overflow: hidden;
 }
 
+/* HEADER */
+
 .table th {
-  background-color: var(--color-primary);
-
-  color: white;
-
+  padding: 14px 16px;
   text-align: left;
+  vertical-align: middle;
 
-  padding: 16px;
+  background-color: #f1f5f9;
+  color: #111827;
+
+  font-weight: 700;
+  border-bottom: 2px solid #e5e7eb;
 }
+
+/* CELLS */
 
 .table td {
-  padding: 16px;
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: middle;
 
-  border-top: 1px solid var(--color-border);
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
 }
 
-.table tr:hover {
-  background-color: rgba(255, 255, 255, 0.03);
-}
-.table .btn {
-  padding: 8px 14px;
+/* STRIPED */
 
+.table-striped tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+/* HOVER */
+
+.table-hover tbody tr:hover {
+  background-color: #eef2ff;
+}
+
+/* COMPACT */
+
+.table-compact th,
+.table-compact td {
+  padding: 8px 12px;
+}
+
+/* SMALL */
+
+.table-sm th,
+.table-sm td {
+  padding: 6px 10px;
   font-size: 14px;
+}
+
+/* CENTER */
+
+.table-center th,
+.table-center td {
+  text-align: center;
+}
+
+/* LINKS */
+
+.table a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.table a:hover {
+  text-decoration: underline;
+}
+
+/* BUTTON STYLE LINKS */
+
+.table-link {
+  display: inline-block;
+
+  padding: 8px 16px;
+
+  border: 1px solid #334155;
+  border-radius: 8px;
+
+  color: #334155;
+  text-decoration: none;
+
+  transition: all 0.2s ease;
+}
+
+.table-link:hover {
+  background-color: #334155;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .table th,
+  .table td {
+    padding: 10px;
+  }
+
 }
