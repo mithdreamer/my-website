@@ -28,17 +28,70 @@
 }
 
 .btn-primary:hover {
-  background-color: #1d4ed8;
+  background-color: var(--color-primary-dark);
 }
+
+
 
 .btn-secondary {
-  background-color: transparent;
-
-  color: var(--color-text);
-
-  border: 1px solid var(--color-border);
+  background-color: #475569;
+  color: white;
 }
+
 
 .btn-secondary:hover {
   background-color: var(--color-surface-soft);
+}
+
+/* OUTLINE */
+
+.btn-outline {
+  background-color: transparent;
+
+  color: var(--color-primary);
+
+  border: 1px solid var(--color-primary);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-primary);
+
+  color: white;
+}
+
+/* FULL WIDTH */
+
+.btn-full {
+  width: 100%;
+}
+
+/* SUCCESS */
+
+.btn-success {
+  background-color: #16a34a;
+
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #15803d;
+}
+
+/* DANGER */
+
+.btn-danger {
+  background-color: #dc2626;
+
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #b91c1c;
+}
+
+/* SMALL */
+
+.btn-sm {
+  padding: 8px 14px;
+  font-size: 14px;
 }
