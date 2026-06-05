@@ -1,3 +1,49 @@
+/* ========================================
+   BUTTON SYSTEM
+======================================== */
+
+/*
+.btn-primary
+Ana aksiyonlar.
+Kaydet, Oluştur, Gönder, Başlat vb.
+*/
+
+/*
+.btn-secondary
+İkincil aksiyonlar.
+Detaylar, Düzenle, Yönet vb.
+*/
+
+/*
+.btn-success
+Başarılı işlemler.
+Onayla, Tamamla, Kabul Et vb.
+*/
+
+/*
+.btn-danger
+Riskli işlemler.
+Sil, İptal Et, Kaldır vb.
+*/
+
+/*
+.btn-outline
+Düşük öncelikli aksiyonlar.
+Görüntüle, İncele, Daha Fazla vb.
+*/
+
+/*
+.btn-sm
+Küçük alanlarda kullanılan buton.
+Tablolar, kartlar, satır işlemleri vb.
+*/
+
+/*
+.btn-full
+Bulunduğu alanın tamamını kaplar.
+Kart içi butonlar, mobil ekranlar vb.
+*/
+
 .btn {
   display: inline-flex;
 

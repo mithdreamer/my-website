@@ -3,29 +3,52 @@
 Bu dosya proje planini, aktif isleri, backlog maddelerini ve ogrenme notlarini takip etmek icin kullanilir.
 Gerektikce elle guncellenebilir.
 
+Son guncelleme: 2026-06-05
+
 ## Unutulmamasi Gerekenler
+
+### Guncel Durum
+
+- Ana sayfa, oyunlar, uygulamalar, 3D, gumruk, magaza, blog ve hakkimda sayfalari mevcut.
+- Navbar artik ortak HTML/CSS/JS bileseni olarak yukleniyor.
+- Footer artik ortak HTML/CSS/JS bileseni olarak yukleniyor.
+- Mobil navbar icin hamburger ac/kapat davranisi var.
+- Aktif sayfa linki navbar uzerinde otomatik vurgulaniyor.
+- Gumruk alt sayfalari olusturuldu: mevzuat, faydali linkler, GTIP, hesaplama araclari, ithalat, ihracat.
+- 3D alt sayfalari olusturuldu: modeller, yazicilar, baskilar, hizmetler, projeler.
+- Store ana sayfasi ve alt klasor iskeletleri olusturuldu.
 
 ### Design System Durumu
 
-- `variables.css` guncellendi
-- `buttons.css` olusturuldu
-- `card.css` ortak kart yapisina cekildi
-- `heroes.css` ortak sayfa hero yapisi icin olusturuldu
-- Button System `pages/3d`, `pages/games`, `pages/gumruk` ve gumruk alt sayfalarinda kullanilmaya baslandi
-- Henuz tum kart butonlari `btn` sistemine tasinmadi
-- Ileride `pages/design-system/index.html` olusturulacak ve test alanlari bu sayfaya tasinacak
-- Sonraki adim: `card-button` -> `btn btn-primary` donusumu ve Table/Form System
+- `variables.css` guncellendi.
+- `buttons.css` olusturuldu.
+- Button System temel varyantlari var: `btn`, `btn-primary`, `btn-secondary`, `btn-success`, `btn-danger`, `btn-outline`, `btn-sm`, `btn-full`.
+- `card.css` ortak kart yapisina cekildi.
+- `heroes.css` ortak sayfa hero yapisi icin olusturuldu.
+- `tables.css` olusturuldu ve `pages/gumruk/faydali-linkler/index.html` sayfasinda kullaniliyor.
+- `utilities.css`, `layout.css`, `global.css` ve `animations.css` ortak yardimci katmanlar olarak kullaniliyor.
+- Button System `pages/3d`, `pages/games`, `pages/gumruk` ve gumruk alt sayfalarinda kullanilmaya baslandi.
+- Henuz tum kart butonlari `btn` sistemine tasinmadi.
+- Form System henuz olusturulmadi.
+- Ileride `pages/design-system/index.html` olusturulacak ve test alanlari bu sayfaya tasinacak.
 
 ### Son Gelistirmeler
 
-- Navbar System gelistirildi
-- Navbar artik ortak HTML/CSS/JS bileseni olarak yukleniyor
-- Mobil menu icin hamburger ac/kapat davranisi eklendi
-- Aktif sayfa linki otomatik vurgulaniyor
-- Navbar link renkleri dark/light tema degiskenleriyle uyumlu hale getirildi
-- Navbar'a Magaza, Blog ve Hakkimda linkleri eklendi
-- Store ve Blog sayfalari temel hero/icerik yapisiyla eklendi
-- 3D sayfasina Button System demo alani eklendi
+- Footer System eklendi.
+- Table System eklendi.
+- Gumruk faydali linkler sayfasinda tablo ornegi kullanildi.
+- Gumruk mevzuati sayfasina kategori kartlari eklendi.
+- Navbar'a Magaza, Blog ve Hakkimda linkleri eklendi.
+- Store, Blog ve Hakkimda sayfalari temel hero/icerik yapisiyla eklendi.
+- 3D ve Gumruk bolumlerinin alt sayfa iskeletleri genisletildi.
+- `pages/test.html` Button System test alani olarak kullaniliyor.
+
+### Dikkat Edilecekler
+
+- `card-button` sinifi hala ana sayfa, blog ve uygulamalar sayfalarinda geciyor.
+- Navbar aktif link kontrolu su an birebir path eslesmesiyle calisiyor; alt sayfalarda ust kategori aktifligi daha sonra iyilestirilebilir.
+- Gumruk faydali linkler sayfasinda TAREKS ve Tek Pencere baglantilari placeholder durumda.
+- Store alt klasorleri simdilik iskelet seviyesinde.
 
 ### Modal Nedir?
 
@@ -41,7 +64,11 @@ Gerektikce elle guncellenebilir.
 - [x] Uygulamalar
 - [x] Gumruk
 - [x] 3D
-- [x] Magaza planlandi
+- [x] Magaza ana sayfasi
+- [x] Blog
+- [x] Hakkimda
+- [x] Ortak Navbar
+- [x] Ortak Footer
 
 ### Design System
 
@@ -49,12 +76,16 @@ Gerektikce elle guncellenebilir.
 - [x] Buttons
 - [x] Cards
 - [x] Heroes
+- [x] Tables
+- [ ] Forms
 - [ ] `pages/design-system/index.html` olusturulacak ve test alanlari buraya tasinacak
 
 ### Siradakiler
 
 - [x] Navbar System
-- [ ] Table System
+- [x] Footer System
+- [x] Table System
+- [ ] `card-button` -> `btn btn-primary` donusumu
 - [ ] Form System
 - [ ] SEO
 - [ ] Favicon
@@ -75,31 +106,50 @@ Gerektikce elle guncellenebilir.
 - [ ] 3D Urun Satisi
 - [ ] Dijital Urun Satisi
 
-## 🔴 Simdi Yapilacaklar
+## Simdi Yapilacaklar
 
 Bunlar aktif gelistirme isleri:
 
-- [x] Button System
-  - [x] `buttons.css` icerigi
-  - [x] `btn` / `btn-primary` / `btn-secondary`
-  - [ ] `card-button` -> `btn` donusumu
-- [x] Card System 2.0
-  - [x] Kart hover gelistirmeleri
-  - [x] Esit yukseklikte kartlar
+- [ ] `card-button` -> `btn` donusumu
+  - [ ] `index.html`
+  - [ ] `pages/blog/index.html`
+  - [ ] `pages/apps/index.html`
 - [ ] Navbar son kontrolleri
-  - [ ] Tum sayfalarda aktif link kontrolu
+  - [ ] Tum ana sayfalarda aktif link kontrolu
+  - [ ] Alt sayfalarda ust kategori aktifligi
   - [ ] Mobil gorunum testi
+- [ ] Gumruk faydali linkler sayfasi
+  - [ ] TAREKS baglantisi eklenecek
+  - [ ] Tek Pencere baglantisi eklenecek
+  - [ ] Sayfa hero alani tamamlanacak
+- [ ] Form System
+  - [ ] Input
+  - [ ] Select
+  - [ ] Textarea
+  - [ ] Checkbox / radio
+  - [ ] Form hata ve yardim metinleri
 
-## 🟡 Yakinda Yapilacaklar
+## Yakinda Yapilacaklar
 
 Bunlar projeyi buyutecek ozellikler:
 
+- [ ] Design System sayfasi
+  - [ ] Button testleri buraya tasinacak
+  - [ ] Card ornekleri eklenecek
+  - [ ] Table ornekleri eklenecek
+  - [ ] Form ornekleri eklenecek
 - [ ] Gumruk Mevzuati bolumu
+  - [x] Mevzuat kategorileri
   - [ ] Mevzuat listeleme
   - [ ] Mevzuat arama
-  - [ ] Mevzuat kategorileri
+  - [ ] Kategori detay sayfalari
+- [ ] Store bolumu
+  - [ ] 3D urunler sayfasi
+  - [ ] Dijital urunler sayfasi
+  - [ ] Hizmetler sayfasi
+  - [ ] Kampanyalar sayfasi
 
-## 🔵 Gelecekte Yapilacaklar
+## Gelecekte Yapilacaklar
 
 Daha buyuk isler:
 
@@ -114,7 +164,7 @@ Daha buyuk isler:
   - [ ] Yetkilendirme
   - [ ] Kullanici profili
 
-## 💡 Fikir Havuzu
+## Fikir Havuzu
 
 Aklina gelen ama henuz planlamadigin seyler:
 
@@ -126,7 +176,7 @@ Aklina gelen ama henuz planlamadigin seyler:
 - [ ] Gumruk ile ilgili sayfa hazirlama
 - [ ] 3D calismalarini internet sitesine ekleme
 
-## 📚 Ogrenme Listesi
+## Ogrenme Listesi
 
 Unutmamak istedigin teknik konular:
 
@@ -162,6 +212,8 @@ Unutmamak istedigin teknik konular:
 - [ ] Git checkout uyarilari
 - [ ] Design System yaklasimi
 - [ ] Grid + `auto-fit` + `minmax`
+- [ ] Responsive tablo tasarimi
+- [ ] Form alanlari ve validation mantigi
 
 ## Backlog Komutlari
 
