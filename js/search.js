@@ -1,7 +1,20 @@
+const searchCount = document.querySelector(".search-count");
 const searchInput = document.querySelector(".search-input");
 const searchClear = document.querySelector(".search-clear");
 
 const tableRows = document.querySelectorAll("tbody tr");
+
+function updateSearchCount() {
+  let visibleCount = 0;
+
+  tableRows.forEach((row) => {
+    if (row.style.display !== "none") {
+      visibleCount++;
+    }
+  });
+
+  searchCount.textContent = `(${visibleCount} kayıt)`;
+}
 
 function resetSearch() {
   searchInput.value = "";
@@ -9,6 +22,8 @@ function resetSearch() {
   tableRows.forEach((row) => {
     row.style.display = "";
   });
+
+  updateSearchCount();
 
   searchInput.focus();
 }
@@ -36,6 +51,8 @@ if (searchInput && searchClear) {
       }
 
     });
+
+    updateSearchCount();
 
   });
 
