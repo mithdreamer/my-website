@@ -1,0 +1,48 @@
+.arduino-hero {
+  min-height: 80vh;
+  padding: 120px 24px;
+  text-align: center;
+}
+
+.arduino-hero h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.arduino-hero p {
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.arduino-button {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  background-color: #00979d;
+  color: white;
+}
+
+.arduino-page {
+  padding: 120px 40px 60px;
+}
+
+.arduino-page h1 {
+  margin-bottom: 32px;
+}
+
+.arduino-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.arduino-card {
+  padding: 24px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.arduino-card h2 {
+  margin-bottom: 12px;
+}

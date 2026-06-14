@@ -1,0 +1,20 @@
+[
+  {
+    "title": "LED Yakma Projesi",
+    "description": "Arduino ile temel LED kontrolü.",
+    "level": "Başlangıç",
+    "components": ["Arduino Uno", "LED", "Direnç", "Jumper Kablo"]
+  },
+  {
+    "title": "Buton ile LED Kontrolü",
+    "description": "Butona basıldığında LED yakma uygulaması.",
+    "level": "Başlangıç",
+    "components": ["Arduino Uno", "Buton", "LED", "Direnç"]
+  },
+  {
+    "title": "Servo Motor Kontrolü",
+    "description": "Arduino ile servo motor açı kontrolü.",
+    "level": "Orta",
+    "components": ["Arduino Uno", "Servo Motor", "Jumper Kablo"]
+  }
+]
