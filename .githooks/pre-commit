@@ -1,0 +1,20 @@
+#!/bin/sh
+set -e
+
+SCRIPT="scripts/update-development-log.ps1"
+
+if [ ! -f "$SCRIPT" ]; then
+    echo "Development log script not found: $SCRIPT" >&2
+    exit 1
+fi
+
+if command -v pwsh >/dev/null 2>&1; then
+    pwsh -NoProfile -ExecutionPolicy Bypass -File "$SCRIPT"
+elif command -v powershell.exe >/dev/null 2>&1; then
+    powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$SCRIPT"
+elif command -v powershell >/dev/null 2>&1; then
+    powershell -NoProfile -ExecutionPolicy Bypass -File "$SCRIPT"
+else
+    echo "PowerShell is required to update docs/development-log.md automatically." >&2
+    exit 1
+fi
