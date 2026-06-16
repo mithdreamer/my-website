@@ -31,7 +31,33 @@ Son Güncelleme:
 
 ==================================================
 */
+const searchClear =
+  document.querySelector(".search-clear");
+function resetProjectSearch() {
 
+  searchInput.value = "";
+
+  projectCards.forEach((card) => {
+    card.style.display = "";
+  });
+
+  updateProjectCount();
+
+  searchInput.focus();
+
+}
+
+searchClear.addEventListener("click", () => {
+  resetProjectSearch();
+});
+
+document.addEventListener("keydown", (event) => {
+
+  if (event.key === "Escape") {
+    resetProjectSearch();
+  }
+
+});
 // Search alanını bul
 const searchInput =
   document.querySelector(".search-input");
