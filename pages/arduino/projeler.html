@@ -24,12 +24,37 @@
 
 <body>
 
-  <nav class="navbar">
+  <div id="navbar"></div>
 
-    <div class="container navbar-container">
+  <main class="arduino-page">
 
-      <a href="/" class="logo">
-        Korhan
+    <section class="page-hero">
+
+      <h1 class="page-title">
+        Arduino Projeleri
+      </h1>
+
+      <p class="page-description">
+        Sensörler, motorlar, LED sistemleri ve üretim odaklı Arduino çalışmalarım.
+      </p>
+
+    </section>
+
+    <section id="arduino-project-list" class="arduino-grid">
+      <!-- Projeler JS ile buraya gelecek -->
+    </section>
+
+  </main>
+
+  <div id="footer"></div>
+
+<script src="/js/theme.js"></script>
+<script src="/components/navbar/navbar.js"></script>
+<script src="/components/footer/footer.js"></script>
+
+</body>
+
+</html>
       </a>
 
       <ul class="nav-links" id="nav-links">
