@@ -4,6 +4,13 @@ Bu dosya commit sirasinda staged degisikliklere gore otomatik guncellenir.
 
 <!-- AUTOLOG:START -->
 
+<!-- AUTOLOG:8ddaec9c32f9 -->
+## 2026-06-17 23:57 - 6a62053 sonrasi
+- Branch: `main`
+- Guncellendi: `css/animations.css`
+- Guncellendi: `css/home.css`
+- Guncellendi: `js/animations.js`
+
 <!-- AUTOLOG:c357dec50035 -->
 ## 2026-06-17 17:35 - 3839a21 sonrasi
 - Branch: `main`

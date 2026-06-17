@@ -1,9 +1,11 @@
 /* FADE IN */
 
 .fade-in {
+  --fade-translate-y: 40px;
+
   opacity: 0;
 
-  transform: translateY(40px);
+  transform: translateY(var(--fade-translate-y));
 
   transition:
     opacity 0.8s ease,
@@ -11,9 +13,9 @@
 }
 
 .fade-in.show {
-  opacity: 1;
+  --fade-translate-y: 0;
 
-  transform: translateY(0);
+  opacity: 1;
 }
 
 /* SCALE HOVER */
