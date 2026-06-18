@@ -117,7 +117,12 @@
 .quick-link-arrow {
   flex: 0 0 auto;
   color: var(--color-primary);
-  font-size: 24px;
+  font-size: 28px;
+}
+.quick-link-icon {
+  font-size: 28px;
+
+  margin-right: 16px;
 }
 
 /* MOBILE */

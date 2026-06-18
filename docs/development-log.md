@@ -4,6 +4,15 @@ Bu dosya commit sirasinda staged degisikliklere gore otomatik guncellenir.
 
 <!-- AUTOLOG:START -->
 
+<!-- AUTOLOG:5b8346d65a7f -->
+## 2026-06-18 16:02 - 3b20a61 sonrasi
+- Branch: `main`
+- Eklendi: `PROJECT_STATUS.md`
+- Guncellendi: `css/home.css`
+- Eklendi: `docs/IDEAS.md`
+- Guncellendi: `index.html`
+- Guncellendi: `pages/3d/index.html`
+
 <!-- AUTOLOG:8ddaec9c32f9 -->
 ## 2026-06-17 23:57 - 6a62053 sonrasi
 - Branch: `main`
@@ -113,3 +122,22 @@ Bu dosya commit sirasinda staged degisikliklere gore otomatik guncellenir.
 * Backend mantığını anlayabilmek.
 * Git ve GitHub kullanımına hakim olmak.
 * DevTools ve debugging süreçlerini etkin kullanabilmek.
+
+# Development Log
+
+## 2026-06-18
+
+### Added
+- Homepage Quick Access section
+- Quick Link Card v1
+- PROJECT_STATUS.md
+
+### Improved
+- Homepage dashboard structure
+- 3D project search system
+
+### Learned
+- DevTools breakpoint
+- Scope
+- CSS transform conflict
+- Grid parent / child structure
