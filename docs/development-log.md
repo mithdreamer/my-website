@@ -4,6 +4,16 @@ Bu dosya commit sirasinda staged degisikliklere gore otomatik guncellenir.
 
 <!-- AUTOLOG:START -->
 
+<!-- AUTOLOG:ddb5f90d2946 -->
+## 2026-06-18 17:24 - a8e5e21 sonrasi
+- Branch: `main`
+- Silindi: `assets/images/3d/infinite-cube.jpg`
+- Eklendi: `assets/images/projects/3d/infinite-cube.jpg`
+- Eklendi: `assets/images/projects/ai-news/ai-news-home.jpg`
+- Eklendi: `assets/images/projects/order-portal/dashboard.jpg`
+- Guncellendi: `components/cards/card.css`
+- Guncellendi: `index.html`
+
 <!-- AUTOLOG:5b8346d65a7f -->
 ## 2026-06-18 16:02 - 3b20a61 sonrasi
 - Branch: `main`
