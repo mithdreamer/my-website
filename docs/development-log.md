@@ -4,6 +4,12 @@ Bu dosya commit sirasinda staged degisikliklere gore otomatik guncellenir.
 
 <!-- AUTOLOG:START -->
 
+<!-- AUTOLOG:306b05c5399f -->
+## 2026-06-19 08:45 - f198656 sonrasi
+- Branch: `main`
+- Guncellendi: `css/buttons.css`
+- Guncellendi: `index.html`
+
 <!-- AUTOLOG:ddb5f90d2946 -->
 ## 2026-06-18 17:24 - a8e5e21 sonrasi
 - Branch: `main`
