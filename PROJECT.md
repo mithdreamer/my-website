@@ -228,3 +228,18 @@ Backlog'a tasi: Uyelik sistemi -> Yakinda Yapilacaklar
 ```
 
 Bu tip notlari ilgili bolume eklemek veya tasimak icin bu dosya guncellenir.
+
+console.log(now);
+
+dashboard.js te ilgili constdan sonra console.log koyunca ve f12 ye tıklayıp console u açınca log lar gözüküyor. 
+
+const weatherData = await response.json();
+
+console.log(weatherData);
+yazacağız ve API'nin bize ne gönderdiğini göreceğiz.
+
+Ya da AI News widgetında:
+
+console.log(newsData);
+
+diyerek JSON'un içeriğini inceleyeceğiz.
