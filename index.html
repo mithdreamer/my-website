@@ -83,37 +83,54 @@
       Güncel Bilgiler
     </h2>
 
-    <div class="widget-grid">
+      <div class="widget-grid">
 
-      <div class="card">
-        <div class="card-content">
-          <h3>Saat</h3>
-          <p>12:45</p>
+        <div class="dashboard-widget">
+          <div class="widget-header">
+            <span class="widget-icon">🕒</span>
+            <h3>Saat</h3>
+          </div>
+
+          <p
+            class="widget-value"
+            id="clock"
+          >
+            00:00:00
+          </p>
+          <p class="widget-note">Türkiye Saati</p>
         </div>
-      </div>
 
-      <div class="card">
-        <div class="card-content">
-          <h3>Hava Durumu</h3>
-          <p>24°C</p>
+        <div class="dashboard-widget">
+          <div class="widget-header">
+            <span class="widget-icon">☁️</span>
+            <h3>Hava Durumu</h3>
+          </div>
+
+          <p class="widget-value">24°C</p>
+          <p class="widget-note">İstanbul · Parçalı bulutlu</p>
         </div>
-      </div>
 
-      <div class="card">
-        <div class="card-content">
-          <h3>Döviz</h3>
-          <p>USD / TRY</p>
+        <div class="dashboard-widget">
+          <div class="widget-header">
+            <span class="widget-icon">💱</span>
+            <h3>Döviz</h3>
+          </div>
+
+          <p class="widget-value">USD / TRY</p>
+          <p class="widget-note">Güncel kur bilgisi eklenecek</p>
         </div>
-      </div>
 
-      <div class="card">
-        <div class="card-content">
-          <h3>AI News</h3>
-          <p>Son haber özeti burada yer alacak.</p>
+        <div class="dashboard-widget">
+          <div class="widget-header">
+            <span class="widget-icon">🤖</span>
+            <h3>AI News</h3>
+          </div>
+
+          <p class="widget-value">Günün Haberleri</p>
+          <p class="widget-note">AI destekli haber özeti</p>
         </div>
-      </div>
 
-    </div>
+      </div>
 
   </div>
 
@@ -392,6 +409,7 @@
 
   <script src="/js/theme.js"></script>
   <script src="/js/animations.js"></script>
+  <script src="/js/dashboard.js"></script>
   <script src="/components/navbar/navbar.js"></script>
   <script src="/components/footer/footer.js"></script>
 
