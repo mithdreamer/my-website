@@ -124,6 +124,20 @@
 
   margin-right: 16px;
 }
+.widget-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 24px;
+
+}
+.widget-grid .card {
+
+  min-height: 140px;
+
+}
 
 /* MOBILE */
 
