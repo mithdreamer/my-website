@@ -177,6 +177,23 @@
 
   font-size: 14px;
 }
+.widget-link {
+  display: inline-block;
+
+  margin-top: 12px;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  color: var(--color-primary);
+
+  text-decoration: none;
+}
+
+.widget-link:hover {
+  text-decoration: underline;
+}
 
 /* MOBILE */
 
