@@ -40,30 +40,7 @@
   gap: 16px;
 }
 
-.btn {
-  padding: 14px 24px;
-  border-radius: var(--radius-md);
-  font-weight: bold;
-  transition: 0.2s ease;
-}
 
-.btn-primary {
-  background-color: var(--color-primary);
-  color: white;
-}
-
-.btn-primary:hover {
-  background-color: var(--color-primary-hover);
-}
-
-.btn-secondary {
-  border: 1px solid var(--color-border);
-  color: var(--color-text);
-}
-
-.btn-secondary:hover {
-  background-color: var(--color-surface);
-}
 
 /* IMAGE */
 
