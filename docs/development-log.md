@@ -4,6 +4,11 @@ Bu dosya commit sirasinda staged degisikliklere gore otomatik guncellenir.
 
 <!-- AUTOLOG:START -->
 
+<!-- AUTOLOG:ace366e06959 -->
+## 2026-06-21 21:57 - c8985af sonrasi
+- Branch: `main`
+- Guncellendi: `pages/3d/projeler/index.html`
+
 <!-- AUTOLOG:95783adb6bbc -->
 ## 2026-06-21 21:51 - 0e6c887 sonrasi
 - Branch: `main`
