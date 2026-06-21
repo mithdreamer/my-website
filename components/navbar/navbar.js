@@ -42,7 +42,19 @@ function initializeActiveNavLink() {
 
     const linkPath = link.getAttribute("href");
 
-    if (currentPath === linkPath) {
+    if (
+      linkPath === "/" &&
+      currentPath === "/"
+    ) {
+
+      link.classList.add("active");
+
+    }
+
+    if (
+      linkPath !== "/" &&
+      currentPath.startsWith(linkPath)
+    ) {
 
       link.classList.add("active");
 

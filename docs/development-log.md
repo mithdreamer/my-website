@@ -4,6 +4,12 @@ Bu dosya commit sirasinda staged degisikliklere gore otomatik guncellenir.
 
 <!-- AUTOLOG:START -->
 
+<!-- AUTOLOG:95783adb6bbc -->
+## 2026-06-21 21:51 - 0e6c887 sonrasi
+- Branch: `main`
+- Guncellendi: `components/navbar/navbar.js`
+- Guncellendi: `index.html`
+
 <!-- AUTOLOG:44adb16c1206 -->
 ## 2026-06-20 22:00 - bd966bb sonrasi
 - Branch: `main`
