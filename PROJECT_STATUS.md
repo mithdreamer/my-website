@@ -230,3 +230,9 @@ Next
 - Currency widget
 - AI News live statistics
 - Dashboard visual polish
+
+SONRAKİ OTURUM
+
+1. Netlify JSON erişimi
+2. AI News Widget Fetch
+3. Dashboard canlı veri
