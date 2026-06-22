@@ -40,3 +40,44 @@ function updateCalendar() {
 }
 
 updateCalendar();
+
+const aiNewsCountElement =
+  document.querySelector("#ai-news-count");
+
+const aiNewsUpdatedElement =
+  document.querySelector("#ai-news-updated");
+
+async function updateAiNewsWidget() {
+
+  try {
+
+    const response = await fetch(
+      "https://ainews-system.netlify.app/data/stats/latest-statistics.json"
+    );
+
+    const data = await response.json();
+
+    aiNewsCountElement.textContent =
+      `${data.toplam_haber} Haber`;
+
+    aiNewsUpdatedElement.textContent =
+      `Son güncelleme: ${data.generated_at}`;
+
+  } catch (error) {
+
+    aiNewsCountElement.textContent =
+      "AI News";
+
+    aiNewsUpdatedElement.textContent =
+      "Veri alınamadı";
+
+    console.error(
+      "AI News verisi alınamadı:",
+      error
+    );
+
+  }
+
+}
+
+updateAiNewsWidget();
