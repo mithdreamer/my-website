@@ -60,10 +60,15 @@ async function updateAiNewsWidget() {
     aiNewsCountElement.textContent =
       `${data.toplam_haber} Haber`;
 
-    aiNewsUpdatedElement.textContent =
-      `Son güncelleme: ${data.generated_at}`;
+    const updateDate = new Date(
+  data.generated_at.replace(" ", "T")
+);
 
-  } catch (error) {
+  aiNewsUpdatedElement.textContent =
+  updateDate.toLocaleString("tr-TR");
+
+  } 
+    catch (error) {
 
     aiNewsCountElement.textContent =
       "AI News";
