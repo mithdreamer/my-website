@@ -86,3 +86,92 @@ async function updateAiNewsWidget() {
 }
 
 updateAiNewsWidget();
+
+const weatherTemperatureElement =
+  document.querySelector("#weather-temperature");
+
+const weatherDescriptionElement =
+  document.querySelector("#weather-description");
+
+async function updateWeatherWidget() {
+
+  try {
+
+    const response = await fetch(
+      "https://api.open-meteo.com/v1/forecast?latitude=41.01&longitude=28.97&current=temperature_2m"
+    );
+
+    const data = await response.json();
+
+    weatherTemperatureElement.textContent =
+      `${data.current.temperature_2m}°C`;
+
+    weatherDescriptionElement.textContent =
+      "İstanbul";
+
+  } catch (error) {
+
+    weatherTemperatureElement.textContent =
+      "--°C";
+
+    weatherDescriptionElement.textContent =
+      "Veri alınamadı";
+
+    console.error(error);
+
+  }
+
+}
+
+updateWeatherWidget();
+
+
+const usdRateElement =
+  document.querySelector("#usd-rate");
+
+const eurRateElement =
+  document.querySelector("#eur-rate");
+
+async function updateExchangeWidget() {
+
+  try {
+
+    const response = await fetch(
+      "https://open.er-api.com/v6/latest/USD"
+    );
+
+    const data = await response.json();
+
+    const usdTry =
+      data.rates.TRY;
+
+    const eurTry =
+      (
+        data.rates.TRY /
+        data.rates.EUR
+      ).toFixed(2);
+
+    usdRateElement.textContent =
+      `USD: ${usdTry.toFixed(2)} ₺`;
+
+    eurRateElement.textContent =
+      `EUR: ${eurTry} ₺`;
+
+  } catch (error) {
+
+    usdRateElement.textContent =
+      "USD: --";
+
+    eurRateElement.textContent =
+      "Kur alınamadı";
+
+    console.error(
+      "Döviz verisi alınamadı:",
+      error
+    );
+
+  }
+
+}
+
+updateExchangeWidget();
