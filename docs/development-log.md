@@ -4,6 +4,12 @@ Bu dosya commit sirasinda staged degisikliklere gore otomatik guncellenir.
 
 <!-- AUTOLOG:START -->
 
+<!-- AUTOLOG:19bdbfaafab4 -->
+## 2026-06-26 22:52 - 1a0bc72 sonrasi
+- Branch: `main`
+- Guncellendi: `index.html`
+- Guncellendi: `pages/arduino/index.html`
+
 <!-- AUTOLOG:ef985c415b4e -->
 ## 2026-06-22 22:43 - d449c39 sonrasi
 - Branch: `main`
