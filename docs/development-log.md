@@ -4,6 +4,11 @@ Bu dosya commit sirasinda staged degisikliklere gore otomatik guncellenir.
 
 <!-- AUTOLOG:START -->
 
+<!-- AUTOLOG:52bd22105ee2 -->
+## 2026-07-01 13:37 - ed8fe4a sonrasi
+- Branch: `main`
+- Guncellendi: `pages/about/index.html`
+
 <!-- AUTOLOG:b62ed9a8396e -->
 ## 2026-07-01 13:26 - 004e49c sonrasi
 - Branch: `main`
