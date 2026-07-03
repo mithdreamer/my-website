@@ -4,6 +4,12 @@ Bu dosya commit sirasinda staged degisikliklere gore otomatik guncellenir.
 
 <!-- AUTOLOG:START -->
 
+<!-- AUTOLOG:db10ccf12fab -->
+## 2026-07-03 15:11 - 85a82bc sonrasi
+- Branch: `main`
+- Eklendi: `assets/images/profile/profil.jpg`
+- Guncellendi: `index.html`
+
 <!-- AUTOLOG:89ac1bce76c6 -->
 ## 2026-07-03 15:04 - ecf61d3 sonrasi
 - Branch: `main`
