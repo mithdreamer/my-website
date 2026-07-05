@@ -4,6 +4,13 @@ Bu dosya commit sirasinda staged degisikliklere gore otomatik guncellenir.
 
 <!-- AUTOLOG:START -->
 
+<!-- AUTOLOG:63a9a83dabd3 -->
+## 2026-07-05 23:27 - 262a68b sonrasi
+- Branch: `main`
+- Eklendi: `assets/images/projects/mini-capital-llm.svg`
+- Guncellendi: `index.html`
+- Eklendi: `pages/mini-capital-llm/index.html`
+
 <!-- AUTOLOG:4777171ab7a9 -->
 ## 2026-07-05 16:17 - e7e6ce9 sonrasi
 - Branch: `main`
