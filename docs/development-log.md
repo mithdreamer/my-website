@@ -4,6 +4,42 @@ Bu dosya commit sirasinda staged degisikliklere gore otomatik guncellenir.
 
 <!-- AUTOLOG:START -->
 
+<!-- AUTOLOG:4777171ab7a9 -->
+## 2026-07-05 16:17 - e7e6ce9 sonrasi
+- Branch: `main`
+- Eklendi: `assets/icons/README.md`
+- Eklendi: `assets/icons/ai.svg`
+- Eklendi: `assets/icons/arduino.svg`
+- Eklendi: `assets/icons/arrow-right.svg`
+- Eklendi: `assets/icons/blog.svg`
+- Eklendi: `assets/icons/book.svg`
+- Eklendi: `assets/icons/calendar.svg`
+- Eklendi: `assets/icons/clock.svg`
+- Eklendi: `assets/icons/close.svg`
+- Eklendi: `assets/icons/code.svg`
+- Eklendi: `assets/icons/cube.svg`
+- Eklendi: `assets/icons/currency.svg`
+- Eklendi: `assets/icons/customs.svg`
+- Eklendi: `assets/icons/database.svg`
+- Eklendi: `assets/icons/download.svg`
+- Eklendi: `assets/icons/external-link.svg`
+- Eklendi: `assets/icons/game.svg`
+- Eklendi: `assets/icons/github.svg`
+- Eklendi: `assets/icons/home.svg`
+- Eklendi: `assets/icons/linkedin.svg`
+- Eklendi: `assets/icons/mail.svg`
+- Eklendi: `assets/icons/menu.svg`
+- Eklendi: `assets/icons/moon.svg`
+- Eklendi: `assets/icons/powerbi.svg`
+- Eklendi: `assets/icons/profile.svg`
+- Eklendi: `assets/icons/project.svg`
+- Eklendi: `assets/icons/python.svg`
+- Eklendi: `assets/icons/search.svg`
+- Eklendi: `assets/icons/sun.svg`
+- Eklendi: `assets/icons/weather.svg`
+- Guncellendi: `css/home.css`
+- Guncellendi: `index.html`
+
 <!-- AUTOLOG:db10ccf12fab -->
 ## 2026-07-03 15:11 - 85a82bc sonrasi
 - Branch: `main`
